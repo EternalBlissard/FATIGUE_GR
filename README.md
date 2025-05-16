@@ -12,7 +12,7 @@ This setup allows researchers to analyze fatigue progression and gesture recogni
 ```
 https://drive.google.com/drive/u/0/folders/19TKVhO4zxTrM2tD1ldGuYwbn-ayorBiR
 ```
-Above is the link to unity environments used to collect the data
+Above is the link to unity environments used to collect the data. Refer to the read me there for more information!
 
 <b>How to replicate our results?</b><br>
 
