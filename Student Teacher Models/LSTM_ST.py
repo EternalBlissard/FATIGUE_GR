@@ -42,11 +42,11 @@ EMG_ENCODER_DIM = 128
 EMG_PROJECTION_DIM = 64 
 
 # --- Configuration for Combined Model (Teacher) & Training ---
-COMBINED_OUTPUT_DIR = f'./loso_results_combined_IMU_EMG_FIXED_ordered_LSTM_random_state_{RANDOM_STATE}' 
-BASE_IMU_DIR = '/home/tih/kirtil/neurips/filtered_IMU_ordered' 
-BASE_EMG_FEATURE_DIR = '/home/tih/kirtil/neurips/features_by_window_ordered' 
+COMBINED_OUTPUT_DIR = f'/path/to/your/Combined_output/directory{RANDOM_STATE}' 
+BASE_IMU_DIR = '/path/to/your/IMU_data/directory' 
+BASE_EMG_FEATURE_DIR = '/path/to/your/EMG_data/directory' 
 # --- Configuration for Student Model & Distillation ---
-STUDENT_OUTPUT_DIR = f'./loso_results_student_IMU_distilled_FIXED_LSTM_random_state_{RANDOM_STATE}'
+STUDENT_OUTPUT_DIR = f'/path/to/your/Student_output/directory{RANDOM_STATE}'
 WANDB_PROJECT_NAME_STUDENT = f"IMU_Gesture_LOSO_Student_Distilled_FIXED_LSTM_random_state_{RANDOM_STATE}"
 KD_ALPHA = 0.3  
 KD_TEMPERATURE = 2.0 
