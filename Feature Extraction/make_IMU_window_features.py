@@ -14,7 +14,7 @@ WINDOW_SAMPLES = int(WINDOW_DURATION_SEC * SAMPLING_RATE)
 STEP_DURATION_SEC = 20.0    # For non-overlapping windows, step == window duration
 STEP_SAMPLES = int(STEP_DURATION_SEC * SAMPLING_RATE)
 
-#Paths
+# TODO: Paths
 FILTERED_DIR: str = "path/to/filtered/data"
 OUT_ROOT: str = "path/to/windowed/IMU/features"
 

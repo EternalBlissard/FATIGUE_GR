@@ -12,7 +12,7 @@ SAMPLING_RATE: int = 1259  # Hz
 WINDOW_SECONDS: int = 20
 WINDOW_SAMPLES: int = WINDOW_SECONDS * SAMPLING_RATE  # 25 180
 
-# Paths
+# TODO: Paths
 FILTERED_DIR: str = "path/to/filtered/data"
 OUT_ROOT: str = "path/to/windowed/EMG/features"
 
